@@ -14,14 +14,14 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-# CI_ENVIRONMENT = production
+CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
 
-# app.baseURL = ''
-# app.forceGlobalSecureRequests = false
+app.baseURL = 'localhost/webtiketpesawat/'
+app.forceGlobalSecureRequests = false
 
 # app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
 # app.sessionCookieName = 'ci_session'
@@ -33,16 +33,16 @@
 
 # app.CSPEnabled = false
 
-#--------------------------------------------------------------------
-# DATABASE
-#--------------------------------------------------------------------
+--------------------------------------------------------------------
+DATABASE
+--------------------------------------------------------------------
 
-# database.default.hostname = localhost
-# database.default.database = ci4
-# database.default.username = root
-# database.default.password = root
-# database.default.DBDriver = MySQLi
-# database.default.DBPrefix =
+database.default.hostname = localhost
+database.default.database = ci4
+database.default.username = root
+database.default.password = 
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
 
 # database.tests.hostname = localhost
 # database.tests.database = ci4
