@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/Webtiketpesawat(ci4)/';
+    public $baseURL = 'https://localhost/Webtiketpesawat/';
 
     /**
      * --------------------------------------------------------------------------
