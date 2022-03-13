@@ -1,3 +1,5 @@
+<?= $this->extend('/frame/frame');?>
+<?= $this->section('isiframe');?>
 
     <div class="fixed-side-navbar">
         <ul class="nav flex-column">
@@ -20,6 +22,7 @@
             </div>
         </div>
     </div>
+
 
 
     <div class="service-content" id="services">
@@ -86,7 +89,7 @@
                     <div id="owl-testimonials" class="owl-carousel owl-theme">
                         <div class="item">
                             <div class="testimonials-item">
-                                <a href="<?= base_url('/styler/indexstyler/img/1st-big-item.jpg')?>" data-lightbox="image-1"><img src="../Views/styler/indexstyler/img/1st-item.jpg" alt=""></a>
+                                <a href="<?= base_url('/styler/Indexstyler/img/1st-big-item.jpg')?>" data-lightbox="image-1"><img src="<?= base_url('/styler/Indexstyler/img/1st-item.jpg')?>" alt=""></a>
                                 <div class="text-content">
                                     <h4>Awesome Note Book</h4>
                                     <span>$18.00</span>
@@ -95,7 +98,7 @@
                         </div>
                         <div class="item">
                             <div class="testimonials-item">
-                                <a href="../Views/styler/indexstyler/img/2nd-big-item.jpg" data-lightbox="image-1"><img src="../Views/styler/indexstyler/img/2nd-item.jpg" alt=""></a>
+                                <a href="<?= base_url('/styler/Indexstyler/img/2nd-big-item.jpg')?>" data-lightbox="image-1"><img src="<?= base_url('/styler/Indexstyler/img/2nd-item.jpg')?>" alt=""></a>
                                 <div class="text-content">
                                     <h4>Antique Decoration Photo</h4>
                                     <span>$27.00</span>
@@ -104,7 +107,7 @@
                         </div>
                         <div class="item">
                             <div class="testimonials-item">
-                                <a href="../Views/styler/indexstyler/img/3rd-big-item.jpg" data-lightbox="image-1"><img src="../Views/styler/indexstyler/img/3rd-item.jpg" alt=""></a>
+                                <a href="<?= base_url('/styler/Indexstyler/img/3rd-big-item.jpg')?>" data-lightbox="image-1"><img src="<?= base_url('/styler/Indexstyler/img/3rd-item.jpg')?>" alt=""></a>
                                 <div class="text-content">
                                     <h4>Work Hand Bag</h4>
                                     <span>$36.00</span>
@@ -113,7 +116,7 @@
                         </div>
                         <div class="item">
                             <div class="testimonials-item">
-                                <a href="../Views/styler/indexstyler/img/4th-big-item.jpg" data-lightbox="image-1"><img src="../Views/styler/indexstyler/img/4th-item.jpg" alt=""></a>
+                                <a href="<?= base_url('/styler/Indexstyler/img/4th-big-item.jpg')?>" data-lightbox="image-1"><img src="<?= base_url('/styler/Indexstyler/img/4th-item.jpg')?>" alt=""></a>
                                 <div class="text-content">
                                     <h4>Smart Watch</h4>
                                     <span>$45.00</span>
@@ -122,7 +125,7 @@
                         </div>
                         <div class="item">
                             <div class="testimonials-item">
-                                <a href="../Views/styler/indexstyler/img/5th-big-item.jpg" data-lightbox="image-1"><img src="../Views/styler/indexstyler/img/5th-item.jpg" alt=""></a>
+                                <a href="<?= base_url('/styler/Indexstyler/img/5th-big-item.jpg')?>" data-lightbox="image-1"><img src="<?= base_url('/styler/Indexstyler/img/5th-item.jpg')?>" alt=""></a>
                                 <div class="text-content">
                                     <h4>PC Tablet Draw</h4>
                                     <span>$63.00</span>
@@ -131,7 +134,7 @@
                         </div>
                         <div class="item">
                             <div class="testimonials-item">
-                                <a href="../Views/styler/indexstyler/img/6th-big-item.jpg" data-lightbox="image-1"><img src="../Views/styler/indexstyler/img/6th-item.jpg" alt=""></a>
+                                <a href="<?= base_url('/styler/Indexstyler/img/6th-big-item.jpg')?>" data-lightbox="image-1"><img src="<?= base_url('/styler/Indexstyler/img/6th-item.jpg')?>" alt=""></a>
                                 <div class="text-content">
                                     <h4>Healthy Milkshake</h4>
                                     <span>$77.00</span>
@@ -140,7 +143,7 @@
                         </div>
                         <div class="item">
                             <div class="testimonials-item">
-                                <a href="../Views/styler/indexstyler/img/2nd-big-item.jpg" data-lightbox="image-1"><img src="../Views/styler/indexstyler/img/2nd-item.jpg" alt=""></a>
+                                <a href="<?= base_url('/styler/Indexstyler/img/2nd-big-item.jpg')?>" data-lightbox="image-1"><img src="<?= base_url('/styler/Indexstyler/img/2nd-item.jpg')?>" alt=""></a>
                                 <div class="text-content">
                                     <h4>Antique Decoration Photo</h4>
                                     <span>$84.50</span>
@@ -149,7 +152,7 @@
                         </div>
                         <div class="item">
                             <div class="testimonials-item">
-                                <a href="../Views/styler/indexstyler/img/1st-big-item.jpg" data-lightbox="image-1"><img src="../Views/styler/indexstyler/img/1st-item.jpg" alt=""></a>
+                                <a href="<?= base_url('/styler/Indexstyler/img/1st-big-item.jpg')?>" data-lightbox="image-1"><img src="<?= base_url('/styler/Indexstyler/img/1st-item.jpg')?>" alt=""></a>
                                 <div class="text-content">
                                     <h4>Awesome Notes Book</h4>
                                     <span>$96.75</span>
@@ -170,19 +173,19 @@
                     <div class="wrapper">
                     <section id="first-tab-group" class="tabgroup">
                       <div id="tab1">
-                        <img src="../Views/styler/indexstyler/img/1st-tab.jpg" alt="">
+					  <img src="<?= base_url('/styler/indexstyler/img/1st-tab.jpg')?>" alt="">
                         <p>Please do not re-distribute our template ZIP file on your template collection sites. You can make a screenshot and a link back to our website. This template can be used for personal or commercial purposes by end-users.</p>
                       </div>
                       <div id="tab2">
-                        <img src="../Views/styler/indexstyler/img/2nd-tab.jpg" alt="">
+					  <img src="<?= base_url('/styler/indexstyler/img/2nd-tab.jpg')?>" alt="">
                         <p>Aliquam eu ultrices risus, sed condimentum diam. Duis risus nulla, elementum vitae nisi a, ornare maximus nisl. Morbi et vehicula est. Cras at vulputate justo. Cras eu nulla metus. Ut et pretium velit. Pellentesque at neque tristique dui tempor venenatis.</p>
                       </div>
                       <div id="tab3">
-                        <img src="../Views/styler/indexstyler/img/3rd-tab.jpg" alt="">
+					  <img src="<?= base_url('/styler/indexstyler/img/3rd-tab.jpg')?>" alt="">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia ligula est, at venenatis ex iaculis quis. Morbi sollicitudin nulla eget odio pellentesque, sed cursus diam iaculis.</p>
                       </div>
                       <div id="tab4">
-                        <img src="../Views/styler/indexstyler/img/4th-tab.jpg" alt="">
+                        <img src="<?= base_url('/styler/indexstyler/img/4th-tab.jpg')?>" alt="">
                         <p>Duis risus nulla, elementum vitae nisi a, ornare maximus nisl. Morbi et vehicula est. Cras at vulputate justo. Cras eu nulla metus. Ut et pretium velit. Pellentesque at neque tristique.</p>
                       </div>
                     </section>
@@ -247,3 +250,60 @@
             </div>
         </div>
     </div>
+
+	<?php
+$bg1=base_url('styler/indexstyler/img/1st-section.jpg');
+$bg2=base_url('styler/indexstyler/img/2nd-section.jpg');
+$bg3=base_url('styler/indexstyler/img/3rd-section.jpg');
+$bg4=base_url('styler/indexstyler/img/4th-section.jpg');
+$bg5=base_url('styler/indexstyler/img/5th-section.jpg');
+?>
+	<style>
+		.parallax-content {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+
+.baner-content {
+  padding-top: 30vh;
+  text-align: center;
+  background-image: url(<?=$bg1?>);
+}
+
+.service-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15vh;
+  background-image: url(<?=$bg2?>);
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.projects-content {
+  padding-top: 20vh;
+  background-image: url(<?=$bg3?>);
+}
+
+.tabs-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8vh;
+  background-image: url(<?=$bg4?>);
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.contact-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 16vh;
+  background-image: url(<?=$bg5?>);
+}
+	</style>
+
+
+<?= $this->endSection();?>

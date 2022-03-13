@@ -13,7 +13,7 @@ p {
 
 section {
   padding: 25px 0 35px;
-  background: #fff;
+  background: rgb(196, 0, 0);
 }
 
 body { 
@@ -146,7 +146,7 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../styler/Indexstyler/img/1st-section.jpg);
+  background-image: url(https://i.pinimg.com/564x/34/25/18/3425183041a5406df8632989472392ee.jpg);
 }
 
 .baner-content h1 {
@@ -182,7 +182,7 @@ a:hover { color: #FF0; }
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url(../styler/Indexstyler/img/2nd-section.jpg);
+  background-image: url(https://i.pinimg.com/564x/34/25/18/3425183041a5406df8632989472392ee.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -245,7 +245,7 @@ h4, .h4 {
 
 .projects-content {
   padding-top: 20vh;
-  background-image: url(../styler/Indexstyler/img/3rd-section.jpg);
+  background-image: url(../img/3rd-section.jpg);
 }
 
 .projects-content .item img {
@@ -299,7 +299,7 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../styler/Indexstyler/img/4th-section.jpg);
+  background-image: url(../img/4th-section.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -368,7 +368,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../styler/Indexstyler/img/5th-section.jpg);
+  background-image: url(../img/5th-section.jpg);
 }
 
 .contact-form {
@@ -490,6 +490,8 @@ footer em {
   
   .baner-content {
     padding-top: 30vh;
+    text-align: center;
+  background-image: url(https://i.pinimg.com/564x/34/25/18/3425183041a5406df8632989472392ee.jpg);
   }
 
   .baner-content h1 {
@@ -542,7 +544,7 @@ footer em {
 /* LIGHT BOX */
 
 body:after {
-  content: url(../styler/Indexstyler/img/close.png) url(../styler/Indexstyler/img/loading.gif) url(../styler/Indexstyler/img/prev.png) url(../styler/Indexstyler/img/next.png);
+  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
   display: none;
 }
 
@@ -621,7 +623,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../styler/Indexstyler/img/loading.gif) no-repeat;
+  background: url(../img/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -652,7 +654,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url(../styler/Indexstyler/img/prev.png) left 48% no-repeat;
+  background: url(../img/prev.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -670,7 +672,7 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url(../styler/Indexstyler/img/next.png) right 48% no-repeat;
+  background: url(../img/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -738,7 +740,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(../styler/Indexstyler/img/close.png) top right no-repeat;
+  background: url(../img/close.png) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
