@@ -253,7 +253,7 @@
 
 	<?php
 $bg1=base_url('styler/indexstyler/img/1st-section.jpg');
-$bg2=base_url('styler/indexstyler/img/2nd-section.jpg');
+$bg2=base_url('styler/indexstyler/img/a.jpg');
 $bg3=base_url('styler/indexstyler/img/3rd-section.jpg');
 $bg4=base_url('styler/indexstyler/img/4th-section.jpg');
 $bg5=base_url('styler/indexstyler/img/5th-section.jpg');

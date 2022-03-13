@@ -1,0 +1,70 @@
+CRITICAL - 2022-03-13 07:54:56 --> Undefined property: App\Controllers\Home::$load
+#0 C:\laragon\www\WebTiketPesawat\app\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 9, Array)
+#1 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\WebTiketPesawat\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 07:59:01 --> Undefined variable: pesawats
+#0 C:\laragon\www\WebTiketPesawat\app\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\WebTiketPesawat\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 08:14:20 --> Undefined variable: pesawats
+#0 C:\laragon\www\WebTiketPesawat\app\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\WebTiketPesawat\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 08:14:20 --> Undefined variable: pesawats
+#0 C:\laragon\www\WebTiketPesawat\app\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\WebTiketPesawat\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 08:14:21 --> Undefined variable: pesawats
+#0 C:\laragon\www\WebTiketPesawat\app\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\WebTiketPesawat\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-13 08:14:21 --> Undefined variable: pesawats
+#0 C:\laragon\www\WebTiketPesawat\app\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\WebTiketPesawat\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-13 08:18:05 --> Table 'webtiketpesawat.webtiketpesawat' doesn't exist
+CRITICAL - 2022-03-13 08:18:05 --> Table 'webtiketpesawat.webtiketpesawat' doesn't exist
+#0 C:\laragon\www\WebTiketPesawat\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\WebTiketPesawat\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\WebTiketPesawat\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\WebTiketPesawat\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\WebTiketPesawat\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\WebTiketPesawat\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\WebTiketPesawat\app\Controllers\Home.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\WebTiketPesawat\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-13 08:20:08 --> Table 'webtiketpesawat.webtiketpesawat' doesn't exist
+CRITICAL - 2022-03-13 08:20:08 --> Table 'webtiketpesawat.webtiketpesawat' doesn't exist
+#0 C:\laragon\www\WebTiketPesawat\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\WebTiketPesawat\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\WebTiketPesawat\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\WebTiketPesawat\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\WebTiketPesawat\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\WebTiketPesawat\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\WebTiketPesawat\app\Controllers\Home.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\WebTiketPesawat\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\WebTiketPesawat\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
