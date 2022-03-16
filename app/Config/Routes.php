@@ -32,7 +32,10 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('admin/', 'A_index::index');
+$routes->get('admin/', 'Viewticket::viewticket');
+$routes->get('admin/editticket', 'A_editticket::editticket');
+$routes->get('admin/addticket', 'A_addticket::addticket');
+$routes->get('admin/viewcust', 'A_viewcust::viewcust');
 // $route['admin'] = 'admin/index';
 
 /*
