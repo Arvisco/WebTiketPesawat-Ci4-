@@ -211,6 +211,7 @@
                             <form id="contact" action="" method="post">
                                 <div class="row">
                                     <div class="col-md-12">
+										<h1>Any Advices?</h1>
                                       <fieldset>
                                         <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
                                       </fieldset>
@@ -244,7 +245,7 @@
                            4. Copy only URL and paste it within the src="" field below
                     -->
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1197183.8373802372!2d-1.9415093691103689!3d6.781986417238027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi+Central+Market!5e0!3m2!1sen!2sth!4v1532967884907" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14889.89708356979!2d-157.24369691288916!3d21.093649871787456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7eaaadcc433901f9%3A0x3cf02fdd8a725f63!2sHalena%20Beach!5e0!3m2!1sen!2sid!4v1647199451022!5m2!1sen!2sid" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -252,11 +253,11 @@
     </div>
 
 	<?php
-$bg1=base_url('styler/indexstyler/img/1st-section.jpg');
-$bg2=base_url('styler/indexstyler/img/a.jpg');
-$bg3=base_url('styler/indexstyler/img/3rd-section.jpg');
-$bg4=base_url('styler/indexstyler/img/4th-section.jpg');
-$bg5=base_url('styler/indexstyler/img/5th-section.jpg');
+$bg1=base_url('styler/indexstyler/img/wp1.jpg');
+$bg2=base_url('styler/indexstyler/img/wp2.jpg');
+$bg3=base_url('styler/indexstyler/img/wp3.png');
+$bg4=base_url('styler/indexstyler/img/wp4.jpg');
+$bg5=base_url('styler/indexstyler/img/wp5.jpg');
 ?>
 	<style>
 		.parallax-content {
@@ -302,6 +303,14 @@ $bg5=base_url('styler/indexstyler/img/5th-section.jpg');
   padding-right: 15px;
   padding-top: 16vh;
   background-image: url(<?=$bg5?>);
+}
+.contact-content h1 {
+  margin-top: 0px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0px;
 }
 	</style>
 
